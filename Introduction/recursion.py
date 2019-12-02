@@ -11,3 +11,4 @@ listOfNo = range(a)
 listUpdated = [*listOfNo]
 print('Saved possible values in a list: ', listUpdated)
 print('Number of ways to the stairs: ', countWays(listUpdated))
+
