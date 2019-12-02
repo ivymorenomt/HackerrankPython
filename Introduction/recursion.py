@@ -7,8 +7,6 @@ def countWays(b):
     return rec(a + 1)
 
 a = int(input('Enter a value: '))
-listOfNo = range(a)
-listUpdated = [*listOfNo]
-print('Saved possible values in a list: ', listUpdated)
-print('Number of ways to the stairs: ', countWays(listUpdated))
-
+listOfNo = [*range(a)]
+print('Saved possible values in a list: ', listOfNo)
+print('Number of ways to the stairs: ', countWays(listOfNo))
